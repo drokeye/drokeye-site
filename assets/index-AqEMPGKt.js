@@ -4360,7 +4360,7 @@ Real dissent is inconvenient:
 So the system filters rage into acceptable hashtags: post, vent, forget.  
 Outrage monetised, revolution postponed.
 
-## 5. Education Versus Indocrination
+## 5. Education Versus Indoctrination
 
 School should expand minds; often it standardises them.
 

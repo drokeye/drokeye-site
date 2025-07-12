@@ -54,9 +54,13 @@ npm dev
 └── README.md
 ```
 
+---
+
 ## 🛡️ License
 This project is open-source and published under the [MIT License](https://github.com/drokeye/drokeye-site/blob/main/LICENSE).
 Feel free to fork, remix, and use it with attribution.
+
+---
 
 ## 📮 Contact
 Got feedback? Want to collaborate?

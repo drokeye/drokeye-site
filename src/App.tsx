@@ -6,12 +6,14 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Writings from './pages/Writings';
 import Links from './pages/Links';
+import NowPlaying from './components/NowPlaying';
 
 function App() {
   return (
     <>
       <BackgroundCanvas />
       <Navbar />
+      <NowPlaying />
       <Toaster position="top-center" toastOptions={{ duration: 2000 }} />
       <Home />
       <About />

@@ -4,6 +4,8 @@ import Tilt from 'react-parallax-tilt';
 import PageWrapper from '../layout/PageWrapper';
 import ProjectModal from '../components/ProjectModal';
 
+const base = '/';
+
 const projects = [
   {
     title: 'Anti‑Drone Detection & Elimination',
@@ -42,13 +44,13 @@ const projects = [
       'Custom‑built bots for dozens of clients — moderation, music, AI chat, economy, dashboards.',
     tech: 'Python, Disocrd.py, PSQL, MongoDB, Docker, Redis',
     screenshots: [
-      'src/assets/proof-1.png',
-      'src/assets/proof-2.png',
-      'src/assets/proof-3.png',
-      'src/assets/proof-4.png',
-      'src/assets/proof5.png',
-      'src/assets/proof-5.png',
-      'src/assets/proof-6.png',
+      `${base}images/proof-1.png`,
+      `${base}images/proof-2.png`,
+      `${base}images/proof-3.png`,
+      `${base}images/proof-4.png`,
+      `${base}images/proof5.png`,
+      `${base}images/proof-5.png`,
+      `${base}images/proof-6.png`,
     ],
     reviews: [
       {
@@ -128,6 +130,9 @@ export default function Projects() {
                     {p.description}
                   </p>
                 </div>
+                <span className="text-xs text-accent underline self-end">
+                  Read →
+                </span>
               </motion.div>
             </Tilt>
           ))}

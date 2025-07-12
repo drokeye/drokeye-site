@@ -81,7 +81,7 @@ Maybe then, we’d finally be free.
 },
 {
   title: 'The System’s Grip on Freedom, Expression, and Identity',
-  date: '2025‑07‑13',
+  date: '2025-07-12',
   excerpt:
     'We like to think we’re free, but most of our “choices” were installed by a system that profits from our predictability. This is a field‑guide to spotting invisible leashes.',
   content: `
@@ -200,7 +200,7 @@ End of rant. Feel free to reboot the matrix—or at least put it on mute for a w
 },
 {
   title: 'Lust, Shame, and the Politics of Sexual Agency',
-  date: '2025‑07‑13',
+  date: '2025-07-12',
   excerpt:
     'Why is lust demonized unless it’s marketable? Why are women shamed for what men are celebrated for? A brutal, tender essay on agency, shame, and the liberation of desire.',
   content: `
@@ -318,7 +318,7 @@ Own your body. Own your wants. And if someone tries to shame you for it—ask yo
 {
   id: 'truth-fragments-and-labels',
   title: 'Truth, Fragments, and the Labels We Bleed Through',
-  date: '2025‑07‑13',
+  date: '2025-07-12',
   excerpt:
     'Why do we judge so fast? Why does every label divide us? A deeply personal piece about alienation, identity, and the silent violence of being boxed in.',
   content: `

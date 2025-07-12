@@ -35,7 +35,7 @@ export default function About() {
             </span>
             <br />
             I’m <strong>Prabakar</strong> — a developer, writer, and overthinker fleeting through life.
-            I’m an engineering graduate (obviously, because I’m Indian — and before you ask, yes, I wear cologne).
+            I’m an engineering graduate (obviously, because I’m Indian).
             <br />
             <span className="inline-block">
               <span className="inline-block w-6 h-6 align-middle mx-1">
@@ -45,7 +45,7 @@ export default function About() {
             </span>
             So yeah, just another fish in the pond.  
             If you care, I love music, movies... basically, <em>art</em>.  
-            Hiphop, rock, experimental (scaring-the-hoes type music).  
+            Hiphop, rock, experimental.  
             <br />
             Movie taste? Check this out:  
             <a

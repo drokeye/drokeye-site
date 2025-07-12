@@ -1,69 +1,66 @@
-# React + TypeScript + Vite
+# [drokeye.site](https://drokeye.site)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A personal, experimental, portfolio & playground.  
+> Built to be soulful, interactive, and unapologetically weird.  
+> [Live Site → drokeye.site](https://drokeye.site)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ About the Site
 
-## Expanding the ESLint configuration
+This is my digital home — not just a portfolio, but a living archive of my writings, projects, and ideas.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Built with:
+- ⚡️ **Vite + React + TypeScript**
+- 🎨 **TailwindCSS** for styling
+- 🌀 **Framer Motion**, **Parallax Tilt**, and other rich effects
+- 🧠 **Markdown-rendered essays** in modal overlays
+- 🤖 Real-time **Spotify Now Playing** via Cloudflare Worker
+- 🧩 Deployed via **GitHub Pages** to [drokeye.site](https://drokeye.site)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🚀 Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/drokeye-site.git
+cd drokeye-site
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 2. Install dependencies
+```bash
+npm install
 ```
+
+### 3. Start the dev server
+```bash
+npm dev
+```
+
+---
+
+## 📁 Folder Structure
+```php
+.
+├── public/              # Static assets (images, favicon, robots.txt)
+├── src/
+│   ├── assets/          # SVGs, screenshots, cat icons, etc.
+│   ├── components/      # Modal components, NowPlaying, UI elements
+│   ├── layout/          # Navbar, PageWrapper, BackgroundCanvas
+│   ├── pages/           # Home, About, Projects, Writings, Links
+├── vite.config.ts
+├── tailwind.config.ts
+└── README.md
+```
+
+## 🛡️ License
+This project is open-source and published under the [MIT License](https://github.com/drokeye/drokeye-site/blob/main/LICENSE).
+Feel free to fork, remix, and use it with attribution.
+
+## 📮 Contact
+Got feedback? Want to collaborate?
+
+> 💬 Discord: @miscc
+
+> 📫 Email: [connect.prabakargk@gmail.com](mailto:connect.prabakargk@gmail.com)
